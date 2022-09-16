@@ -1,10 +1,12 @@
 from setuptools import setup
 
 
-setup(name='LassoBench',
+setup(
+      name='LassoBench',
+      version="0.0.6",
       packages=['LassoBench'],
       install_requires=[
-          'sparse-ho @ https://github.com/QB3/sparse-ho/archive/master.zip',
+          'sparse-ho-fork-leoiv==0.1.dev0',
           'celer',
           'pyDOE',
           'libsvmdata',
